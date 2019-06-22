@@ -1,0 +1,18 @@
+{
+  "name": "ble-presence-detector-backend-example",
+  "version": "1.0.0",
+  "description": "Example server for ESP32 Bluetooth Low Energie presence detector",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "sunofabitcodes",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dgram": "^1.0.1",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "mosca": "^2.8.3"
+  }
+}
